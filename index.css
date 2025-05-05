@@ -1,0 +1,62 @@
+body {
+    background-color: #2e2e2e; /* Dark grey background */
+    color: white;
+  }
+  
+  p {
+    color: white; /* White paragraph text */
+  }
+  
+  h1 {
+    color: #c9a3ff; /* Light purple */
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* For links hover effect */
+  a:hover {
+    color: #ddd;
+  }
+  
+
+  /* Set dark background for navbar */
+.card-header {
+    background-color: #2e2e2e; /* dark gray */
+    border-bottom: 1px solid #444;
+  }
+  
+  /* Set link color to light purple */
+  .card-header .nav-link {
+    color: #d5b3ff; /* light purple */
+  }
+  
+  /* Active/hover/focus states */
+  .card-header .nav-link.active,
+  .card-header .nav-link:hover,
+  .card-header .nav-link:focus {
+    color: #e2caff; /* slightly lighter purple for hover */
+    background-color: transparent; /* remove Bootstrap highlight */
+    border: none;
+    text-decoration: underline;
+  }
+  
+  
+.Photo {
+    max-width: 100%;
+    height: auto;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("Banner.png");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
