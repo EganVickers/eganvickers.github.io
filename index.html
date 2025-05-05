@@ -1,95 +1,117 @@
 <!doctype html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Egan Vickers</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-<style>
-    h1 {
-        font-style: oblique;
-        font-size: larger;
-        text-align: left;
-        color: purple;
-    }
-
-    body {
-        background-color: rgb(40, 40, 40);
-    }
-
-    a:hover {
-        color: rgb(211, 211, 211);
-    }
-
-    p {
-        color: rgb(211, 211, 211);
-    }
-
-    .parallax {
-        /* The image used */
-        background-image: image("Banner.png");
-
-        /* Set a specific height */
-        min-height: 500px;
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-</style>
 
 <head>
-    <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet">
+  <title>Portfolio</title>
 </head>
-<hr>
 
 <body>
 
+  <div class="sticky-top bg-white shadow-sm">
     <div class="card text-center">
-        <div class="card-header">
-          <ul class="nav nav-tabs card-header-tabs">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="true" href="#Information">Information</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Contacts">Contact Information</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Experience</h5>
-          <p class="card-text">Learn more about the various individual and group projects I have worked on throughout the years.</p>
-          <a href="#Artifacts" class="btn btn-primary">Artifacts</a>
-        </div>
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="true" href="#Information">Information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Artifacts">Artifacts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Nebula">Nebula</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Comic">Comic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contacts">Contact Information</a>
+          </li>
+        </ul>
       </div>
+    </div>
+  </div>
+  
 
-    <!--<p><a href="#Information"></a></p>
+  <!--<p><a href="#Information"></a></p>
     <p><a href="#Contacts">Contact Information</a></p>-->
 
-    <h1 id="Information">Egan Vickers</h1>
-    <p>My name is Egan Vickers, and I am a second year GIMM student who has been working to improve my skills in a
-        variety of fields relating to coding. While this might be the primary content I have worked on, I've also
-        strived to improve my ability to lead, work with various groups of people, and to improvise in situations where
-        my current knowledge wouldn't be enough.</p>
-    <hr>
-    <div class="parallax"></div>
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-md-8">
+        <h1 id="Information">Egan Vickers</h1>
+        <p>My name is Egan Vickers, and I am a second year GIMM student who has been working to improve my skills in a
+          variety of fields relating to coding, design, and as a teammate. I have ambitions to learn about a variety of
+          fields relating to sound, including sound design and foley. While this may be my primary target for learning,
+          I strive to be proficient in all fields in order to be helpful in all ways with those I work with. In the
+          following parts of this page, I will discuss and show different parts of my career so far in what I've worked
+          on and thoughts of the time on why I made certain design decisions.</p>
+      </div>
+      <div class="col-md-4">
+        <img id="Photo" src="Photo.jpg" alt="Me" class="img-fluid rounded float-end">
+      </div>
+    </div>
+  </div>
 
-    <hr>
-    <h1 id="Artifacts">Artifacts</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
-    <hr>
-    <h1 id="Contacts">Contact information</h1>
-    <ul id="Socials">
-        <li><a href="eganvickers@u.boisestate.edu">Email</a></li>
-        <li><a href="https://www.linkedin.com/in/egan-vickers-490a45346/">LinkedIn</a></li>
-    </ul>
+  <hr>
+  <div class="parallax"></div>
+
+  <hr>
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-md-8">
+        <h1 id="Artifacts">Artifacts</h1>
+        <p>When I started in GIMM, I had no experience with any form of coding or design. This was frustrating at the
+          start,
+          given that most the projects we worked on required content that wasn't necessarily taught during lectures.
+          This led
+          to me figuring out different solutions to problems in unconventional or inefficent ways due to my lack of
+          knowledge.
+          The best example of this is my first individual game project I worked on, Nebula.</p>
+      </div>
+      <div class="col-md-4">
+        <img class="Photo" src="NebulaScreen.png" alt="NebulaScreen" class="img-fluid rounded float-end">
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container my-4">
+    <h1 id="Nebula">Nebula</h1>
+    <p>This was the first game I created by myself, and your objective was to survive as long as you could in an
+      infinite hallway while matching the colors of the walls that came towards you. It was a simple concept, and
+      largely took inspiration from games like Jetpack Joyride. Looking back, there was so many ways I could've
+      improved the coding as I used hexcodes in the code to match the player's color and the walls color (allowing
+      you to pass through), but I'm still happy with the way it came out.</p>
+    <img class="w-100 rounded my-3" src="NebulaCode.png" alt="NebulaCode">
+  </div>
+  <hr>
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-md-8">
+        <h1 id="Comic">Comic</h1>
+        <p>Another example I'll use is one of the projects I worked on with in a group of four people (including me).
+          The details of this project was the we needed to make a interactive comic book game, using the panels of the
+          comic to transfer into different levels. In addition, we were given a concept that the game needed to be based
+          around. With this is mind, this was quite the fun project to work on. One large learning experience that I
+          took away from this was that ambition is good, but it must be tempered by deadlines and realistic outcomes.
+          This was significant as this project went through many iterations and design ideas, most of which I worked
+          with a fellow classmate to design. Eventually, I had to step up into a semi-leadership position, giving
+          deadlines and directions for what to work on. For myself personally, I worked on multiple parts of this
+          project, such as parts of the art, level design, core mechanics, and overview.</p>
+      </div>
+      <div class="col-md-4">
+        <img class="Photo" src="ComicMenu.png" alt="ComicMenu" class="img-fluid rounded float-end">
+      </div>
+    </div>
+  </div>
+  <h1 id="Contacts">Contact information</h1>
+  <ul id="Socials">
+    <li><a href="eganvickers@u.boisestate.edu">Email</a></li>
+    <li><a href="https://www.linkedin.com/in/egan-vickers-490a45346/">LinkedIn</a></li>
+  </ul>
 </body>
 <hr>
 
