@@ -18,8 +18,16 @@ body {
   a:hover {
     color: #ddd;
   }
+  /*Second WebPageTester Fix */
+  #Socials a {
+    color: #e2caff;
+    text-decoration: underline;
+  }
   
-
+  #Socials a:hover {
+    color: #ffffff;
+  }
+  
   /* Set dark background for navbar */
 .card-header {
     background-color: #2e2e2e; /* dark gray */
